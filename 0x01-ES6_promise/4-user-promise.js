@@ -1,9 +1,6 @@
-function signUpUser(firstName, lastName) {
-  return Promise.resolve({
-    firstName: 'Jean Luc',
-    lastName: 'HABIMANA',
+// This a script to return resolve promise object
+export default function signUpUser(firstName, lastName) {
+  return new Promise((resolve) => {
+    resolve({ firstName, lastName });
   });
 }
-
-export default signUpUser;
-
