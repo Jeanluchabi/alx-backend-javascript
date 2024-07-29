@@ -1,0 +1,20 @@
+{
+  "name": "10-api",
+  "version": "1.0.0",
+  "description": "API testing project",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "test": "mocha api.test.js"
+  },
+  "author": "Jean Luc HABIMANA",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^6.2.2",
+    "supertest": "^4.0.2"
+  }
+}
